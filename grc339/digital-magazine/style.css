@@ -1,0 +1,149 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+    font-family: sans-serif;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    width: 8em;
+    margin: 1em;
+}
+
+h2 {
+    font-family: serif;
+    margin: 0.5rem 0rem 0rem 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    padding-top: 0.3em;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: rgb(92,118,150);
+}
+
+nav {
+    margin: 0em 1em;
+}
+
+
+footer {
+    background-color: rgb(92,118,150);
+    padding: 1em;
+}
+
+footer p {
+    color: rgb(250 250 250);
+    margin: 0;
+}
+
+
+.main-story-teaser h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(92,118,150);
+}
+
+.secondary-story-teaser h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(92,118,150);
+}
+
+.tertiary-story-teaser h2 {
+    color: rgb(92,118,150);
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+    border-top: 1px solid rgb(92,118,150);
+    padding-top: 10px;
+    margin: 0rem 1rem; 
+}
+
+p {
+    color: black;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+section {
+    padding-top: 1em;
+}
+
+article {
+    padding-top: 1em;
+}
+
+figcaption {
+    margin: 0.5em 1em 2em 1em;
+    color: rgb(90, 90, 90);
+    font-style: italic;
+}
+
+article h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(92,118,150);
+}
+
+aside {
+    background-color: rgb(204,207,251);
+    padding: 0.5em;
+}
+
+aside .secondary-story-teaser h2 {
+    font-size: 1em;
+}
+
+
+@media screen and (min-width: 40em) {
+
+    nav li {
+        display: inline;
+    }
+
+    ul li {
+        margin-right: 1em;
+    }
+    
+    figure {
+        margin: zero;
+    }
+
+    body {
+        margin: 0em;
+    }
+    
+    figure {
+    margin: 0em 1em;
+    }
+
+    figcaption {
+        margin: 0.5em 0em 2em 0em;
+    }
+
+    aside {
+        margin: 0em 1em;
+    }
+
+    footer {
+        margin: 0em 1em;
+    }
+}
