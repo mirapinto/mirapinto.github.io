@@ -17,8 +17,9 @@ img {
 }
 
 h1 {
-    width: 8em;
+    width: 15em;
     margin-top: 1em;
+    color: #f00;
     /* margin: 1em; */
 }
 
@@ -27,8 +28,9 @@ h1, nav {
 }
 
 h2 {
-    font-family: serif;
+    /*font-family: serif;*/
     margin-top: 0.5em;
+    font-family: "baileywick-jf-gothic";
     /* margin: 0.5rem 0rem 0rem 1rem; test*/
 }
 
@@ -39,11 +41,13 @@ a {
 ul li {
     list-style-type: none;
     padding-top: 0.3em;
+    font-family: "baileywick-jf-gothic";
+    font-size: 1.25em;
 }
 
 nav ul li a {
     font-weight: bold;
-    color: rgb(92,118,150);
+    color: rgb(241,132,45);
 }
 
 nav ul li a:hover {
@@ -57,7 +61,7 @@ nav {
 
 footer {
     width: 100%;
-    background-color: rgb(92,118,150);
+    background-color: rgb(241,132,45);
     padding: 1em;
     box-sizing: border-box;
 }
@@ -71,21 +75,21 @@ footer p {
 .main-story-teaser h2 {
     font-size: 2.5em;
     font-weight: bold;
-    color: rgb(92,118,150);
+    color: rgb(241,132,45);
 }
 
 .secondary-story-teaser h2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: rgb(92,118,150);
+    color: rgb(146,190,221);
 }
 
 .tertiary-story-teaser h2 {
-    color: rgb(92,118,150);
+    color: rgb(146,190,221);
     font-size: 1.25em;
     font-weight: bold;
     margin: 0;
-    border-top: 1px solid rgb(92,118,150);
+    border-top: 1px solid rgb(241,132,45);
     padding-top: 1em;
     /* margin: 0rem 1rem;  test*/
 }
@@ -93,6 +97,8 @@ footer p {
 p {
     color: rgb(0,0,0);
     margin-bottom: 1em;
+    font-family: "loos-normal";
+
     /* margin: 0rem 1rem 1rem 1rem; test*/
 }
 
@@ -115,17 +121,21 @@ article h2 {
     margin-top: 1em;
     margin-bottom: .5em;
     font-weight: bold;
-    color: rgb(92,118,150);
+    color: rgb(146,190,221);
 }
 
 aside {
-    background-color: rgb(204,207,251);
+    background-color: rgb(244,219,179);
     padding: 1em 0.75em;
 }
 
 aside h2 {
     font-size: 1em;
     padding: 0;
+}
+
+aside .secondary-story-teaser h2 {
+    color: rgb(78,110,65);
 }
 
 aside p {
@@ -141,7 +151,7 @@ header, h2, p, figcaption {
 
     nav ul li {
         display: inline;
-        margin-right: 0.5em;
+        margin-right: 0.75em;
     }
 
     /* ul li {
@@ -161,7 +171,7 @@ header, h2, p, figcaption {
     } test*/
 
     figcaption {
-        margin: 0.5em 1em 0em 0em;
+        margin: 0.5em 1em 2em 0em;
     }
 
     header, h2, p, figcaption {
