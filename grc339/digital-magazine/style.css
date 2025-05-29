@@ -242,7 +242,7 @@ section ul li input[type="tel"] {
 }
 
 div.newsletter section {
-    background: #eee;
+    background: rgb(244,219,179);
     padding: 1em;
     margin-bottom: 1em; 
 }
@@ -269,7 +269,7 @@ form li {
 
 .form {
     display: block;
-    background-color: rgb(246, 244, 238);
+    background-color: rgb(244,219,179);
     padding: 1em .1em; 
     width: 25em; 
     margin-bottom: 1.25em; 
@@ -286,7 +286,17 @@ form li {
 	flex: 0 0 4em;
 }
 
+.newsletter > h2 {
+    color: rgb(100, 145, 178);
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 1em;
+}
 
+.newsletter section h2 {
+    color: rgb(78,110,65);
+}
 
 /* newsletter css ends here */
 
