@@ -282,6 +282,10 @@ form li {
     margin: 1em 0 0 0;
 }
 
+.personal-info ul li label {
+	flex: 0 0 4em;
+}
+
 
 
 /* newsletter css ends here */
