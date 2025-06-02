@@ -443,3 +443,60 @@ form li {
     }
 
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(30, 30, 30);
+    }
+
+    .main-story-teaser, 
+    .secondary-story-teaser,
+    .tertiary-story-teaser {
+        h2 {
+            color: rgb(189, 216, 235); 
+        }
+    }
+
+    nav ul li a {
+        color: rgb(244,219,179);
+    }
+
+    p {
+        color: rgb(213, 213, 213); 
+    }
+
+    footer {
+        background-color: rgb(189, 216, 235);
+    }
+
+    footer p {
+        color: rgb(30, 30, 30);
+    }
+
+    .tertiary-story-teaser h2 {
+        border-top: 1px solid rgb(78,110,65);
+    }
+
+    figcaption {
+        color: rgb(189, 216, 235);
+    }
+
+    .container.mainstory aside p {
+        color: rgb(30, 30, 30);
+    }
+
+    .newsletter h2 {
+        color: rgb(189, 216, 235);
+    }
+
+    h1 {
+        background-image: url("backcountry-logo-alt.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1 img {
+        opacity: 0;
+    }
+
+}
